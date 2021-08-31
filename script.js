@@ -241,4 +241,4 @@ function startGame() {
 }
 
 // On Load
-// startGame();
+startGame();
