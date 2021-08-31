@@ -156,7 +156,7 @@ function ballBoundaries() {
       }
       speedY = -speedY;
     } else if (ballY < 0) {
-      // Reset Ball, add to Player Score
+      Reset Ball, add to Player Score
       ballReset();
       playerScore++;
     }
