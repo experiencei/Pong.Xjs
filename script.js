@@ -163,7 +163,7 @@ function ballBoundaries() {
   }
 }
 
-// Computer Movement
+Computer Movement
 function computerAI() {
   if (playerMoved) {
     if (paddleTopX + paddleDiff < ballX) {
