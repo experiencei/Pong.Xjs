@@ -122,14 +122,7 @@ function ballBoundaries() {
     speedX = -speedX;
   }
   // Bounce off player paddle (bottom)
-  if (ballY > height - paddleDiff) {
-    if (ballX > paddleBottomX && ballX < paddleBottomX + paddleWidth) {
-      paddleContact = true;
-      // Add Speed on Hit
-      if (playerMoved) {
-        speedY -= 1;
-        Max Speed
-        if (speedY < -5) {
+  -5) {
           speedY = -5;
           computerSpeed = 6;
         }
