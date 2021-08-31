@@ -128,7 +128,7 @@ function ballBoundaries() {
       // Add Speed on Hit
       if (playerMoved) {
         speedY -= 1;
-        // Max Speed
+        Max Speed
         if (speedY < -5) {
           speedY = -5;
           computerSpeed = 6;
