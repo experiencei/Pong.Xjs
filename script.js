@@ -184,9 +184,9 @@ function showGameOverEl(winner) {
   const title = document.createElement('h1');
   title.textContent = `${winner} Wins!`;
   // // Button
-  // const playAgainBtn = document.createElement('button');
-  // playAgainBtn.setAttribute('onclick', 'startGame()');
-  // playAgainBtn.textContent = 'Play Again';
+  const playAgainBtn = document.createElement('button');
+  playAgainBtn.setAttribute('onclick', 'startGame()');
+  playAgainBtn.textContent = 'Play Again';
   // // Append
 
   
