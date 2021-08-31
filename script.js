@@ -113,10 +113,10 @@ function ballMove() {
 
 // Determine What Ball Bounces Off, Score Points, Reset Ball
 function ballBoundaries() {
-  // Bounce off Left Wall
-  if (ballX < 0 && speedX < 0) {
-    speedX = -speedX;
-  }
+  // // Bounce off Left Wall
+  // if (ballX < 0 && speedX < 0) {
+  //   speedX = -speedX;
+  // }
   // Bounce off Right Wall
   if (ballX > width && speedX > 0) {
     speedX = -speedX;
