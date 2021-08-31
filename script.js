@@ -198,7 +198,7 @@ function gameOver() {
   //   isGameOver = ;
   //   // Set Winner
   //   let winner = ;
-  // //   showGameOverEl(winner);
+    showGameOverEl(winner);
   // // }
 }
 
