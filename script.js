@@ -194,7 +194,7 @@ function showGameOverEl(winner) {
 
 Check If One Player Has Winning Score, If They Do, End Game
 function gameOver() {
-  // // if (playerScore === winningScore || computerScore === winningScore) {
+  if (playerScore === winningScore || computerScore === winningScore) {
   //   isGameOver = ;
     Set Winner
   //   let winner = ;
