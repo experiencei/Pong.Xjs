@@ -196,7 +196,7 @@ function showGameOverEl(winner) {
 function gameOver() {
   // // if (playerScore === winningScore || computerScore === winningScore) {
   //   isGameOver = ;
-  //   // Set Winner
+    Set Winner
   //   let winner = ;
     showGameOverEl(winner);
   // // }
